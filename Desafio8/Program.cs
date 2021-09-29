@@ -10,10 +10,10 @@ namespace Desafio8
             Funcionario gerente = new Gerente(1, "Milton");
             gerente.CalcularBonificacao();
             
-            Funcionario analista = new AnalistaDeTI(1, "Daniel");
+            Funcionario analista = new AnalistaDeTI(2, "Daniel");
             analista.CalcularBonificacao();
 
-            Funcionario secretaria = new Secretaria(1, "Secretária");
+            Funcionario secretaria = new Secretaria(3, "Secretária");
             secretaria.CalcularBonificacao();
 
             Console.ReadKey();
