@@ -8,7 +8,7 @@ namespace Desafio8.Classes
 
         public override void CalcularBonificacao()
         {
-            Bonificacao += 100m;
+            Salario += 100m;
             Console.WriteLine($"A Secretária recebeu uma bonificação de {100m} reais");
         }
     }

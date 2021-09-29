@@ -6,12 +6,12 @@
         {
             Id = id;
             Nome = nome;
-            Bonificacao = 0;
+            Salario = 0;
         }
 
         public int Id { get; private set; }
         public string Nome { get; set; }
-        public decimal Bonificacao { get; set; }
+        public decimal Salario { get; set; }
 
         public abstract void CalcularBonificacao();
     }
