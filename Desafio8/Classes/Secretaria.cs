@@ -5,6 +5,7 @@ namespace Desafio8.Classes
     public class Secretaria : Funcionario
     {
         public Secretaria(int id, string nome) : base(id, nome) { }
+
         public override void CalcularBonificacao()
         {
             Bonificacao += 100m;
