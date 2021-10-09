@@ -7,14 +7,14 @@ namespace Desafio8
     {
         static void Main(string[] args)
         {
-            Funcionario gerente = new Gerente(1, "Milton");
-            gerente.CalcularBonificacao();
-            
-            Funcionario analista = new AnalistaDeTI(2, "Daniel");
-            analista.CalcularBonificacao();
+            Notificacao mensagemDeVoz = new VoiceMail();
+            mensagemDeVoz.Enviar();
 
-            Funcionario secretaria = new Secretaria(3, "Secretária");
-            secretaria.CalcularBonificacao();
+            Notificacao email = new Email();
+            email.Enviar();
+
+            Notificacao sms = new SMS();
+            sms.Enviar();
 
             Console.ReadKey();
         }
